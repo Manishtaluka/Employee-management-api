@@ -3,6 +3,6 @@ package com.example.employee.exception;
 public class DuplicateEmailException extends RuntimeException {
 
     public DuplicateEmailException(String email) {
-        super("An employee with email '" + email + "' already exists");
+        super("An employee with current email '" + email + "' already exists");
     }
 }
